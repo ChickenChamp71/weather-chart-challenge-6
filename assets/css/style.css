@@ -1,0 +1,66 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    background: linear-gradient(to right,#4559b7, #2d2475);
+    color: white;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+#search {
+    width: 20vw;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 150%;
+    margin-bottom: 15px;
+}
+
+#top-search h2 {
+    margin-left: 12px;
+}
+
+#search-input {
+    text-align: center;
+}
+
+#city-search {
+    font-size: 15px;
+}
+
+#search-button {
+    background-color: #6991e3;
+    color: white;
+    border-color: #6991e3;
+}
+
+#city-search,
+.btn {
+    width: 90%;
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    width: 93%;
+    height: 36px;
+    font-size: 15px;
+    border-radius: 3px;
+}
+
+.search-history {
+    display: none;
+}
