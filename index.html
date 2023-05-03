@@ -7,6 +7,9 @@
         <link rel="stylesheet" href="./assets/css/reset.css">
         <link rel="stylesheet" href="./assets/css/style.css">
         <title>Weather Forecast Checker</title>
+
+        <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js" integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U=" crossorigin="anonymous">
+        </script>
     </head>
 
     <body>
@@ -31,7 +34,10 @@
             </section>
             <article id="weather">
                 <section id="day-0">
-                    <h2>~City and Date~</h2>
+                    <div id="flex-top">
+                        <h2 id="city-date">City (Date)</h2>
+                        <img class="weather-img" id="weather-img-0" src="http://placekitten.com/50/50" alt="Picture relating to weather-type.">
+                    </div>
                     <ul>
                         <li id="temp-0">Temp: </li>
                         <li id="wind-0">Wind: </li>
@@ -42,8 +48,8 @@
                     <h3>5-Day Forecast:</h3>
                     <div id="weather-cards">
                         <div id="day-1" class="card">
-                            <h4 id="date-1"></h4>
-                            <img src="http://placekitten.com/50/50" alt="Picture relating to weather-type.">
+                            <h4 id="date-1" class="date"></h4>
+                            <img class="weather-img" id="weather-img-1" src="http://placekitten.com/50/50" alt="Picture relating to weather-type.">
                             <ul>
                                 <li id="temp-1">Temp: </li>
                                 <li id="wind-1">Wind: </li>
@@ -51,8 +57,8 @@
                             </ul>
                         </div>
                         <div id="day-2" class="card">
-                            <h4 id="date-2"></h4>
-                            <img src="http://placekitten.com/50/50" alt="Picture relating to weather-type.">
+                            <h4 id="date-2" class="date"></h4>
+                            <img class="weather-img" id="weather-img-2" src="http://placekitten.com/50/50" alt="Picture relating to weather-type.">
                             <ul>
                                 <li id="temp-2">Temp: </li>
                                 <li id="wind-2">Wind: </li>
@@ -60,8 +66,8 @@
                             </ul>
                         </div>
                         <div id="day-3" class="card">
-                            <h4 id="date-3"></h4>
-                            <img src="http://placekitten.com/50/50" alt="Picture relating to weather-type.">
+                            <h4 id="date-3" class="date"></h4>
+                            <img class="weather-img" id="weather-img-3" src="http://placekitten.com/50/50" alt="Picture relating to weather-type.">
                             <ul>
                                 <li id="temp-3">Temp: </li>
                                 <li id="wind-3">Wind: </li>
@@ -69,8 +75,8 @@
                             </ul>
                         </div>
                         <div id="day-4" class="card">
-                            <h4 id="date-4"></h4>
-                            <img src="http://placekitten.com/50/50" alt="Picture relating to weather-type.">
+                            <h4 id="date-4" class="date"></h4>
+                            <img class="weather-img" id="weather-img-4" src="http://placekitten.com/50/50" alt="Picture relating to weather-type.">
                             <ul>
                                 <li id="temp-4">Temp: </li>
                                 <li id="wind-4">Wind: </li>
@@ -78,8 +84,8 @@
                             </ul>
                         </div>
                         <div id="day-5" class="card">
-                            <h4 id="date-5"></h4>
-                            <img src="http://placekitten.com/50/50" alt="Picture relating to weather-type.">
+                            <h4 id="date-5" class="date"></h4>
+                            <img class="weather-img" id="weather-img-5" src="http://placekitten.com/50/50" alt="Picture relating to weather-type.">
                             <ul>
                                 <li id="temp-5">Temp: </li>
                                 <li id="wind-5">Wind: </li>

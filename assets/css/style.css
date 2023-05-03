@@ -122,3 +122,15 @@ h3 {
 #day-5 {
     margin-right: 0;
 }
+
+.date {
+    margin-bottom: 10px;
+}
+
+#flex-top {
+    display: flex;
+}
+
+#weather-img-0 {
+    margin-left: 10px;
+}
