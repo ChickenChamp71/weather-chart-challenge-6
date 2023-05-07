@@ -12,7 +12,7 @@ N/A
 
 All you have to do is search up a city by name and it will pull up the most relevant city option. If you would like to use a previous search, just click on one of the buttons below with the same name.
 
-https://github.com/ChickenChamp71/weather-chart-challenge-6
+https://chickenchamp71.github.io/weather-chart-challenge-6/
 
 ![Image of the website, showing the results for London, as well as having the previous history of London and Issaquah.](./assets/images/weather-chart-challenge-1.png)
 
