@@ -1,15 +1,25 @@
-# weather-chart-challenge-6
+# Weather Chart Challenge 6
 
-AS A traveler
-I WANT to see the weather outlook for multiple cities
-SO THAT I can plan a trip accordingly
+## Description
 
-GIVEN a weather dashboard with form inputs
-WHEN I search for a city
-THEN I am presented with current and future conditions for that city and that city is added to the search history
-WHEN I view current weather conditions for that city
-THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, and the wind speed
-WHEN I view future weather conditions for that city
-THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
-WHEN I click on a city in the search history
-THEN I am again presented with current and future conditions for that city
+This is a website dedicated to using a weather API to find the current weather, temperature, humidity, and windspeed of various cities, as well as future weather up to 5 days in the future. It saves previous searches in an easy to access set of buttons.
+
+## Installation
+
+N/A
+
+## Usage
+
+All you have to do is search up a city by name and it will pull up the most relevant city option. If you would like to use a previous search, just click on one of the buttons below with the same name.
+
+https://github.com/ChickenChamp71/weather-chart-challenge-6
+
+![Image of the website, showing the results for London, as well as having the previous history of London and Issaquah.](./assets/images/weather-chart-challenge-1.png)
+
+## Credits
+
+N/A
+
+## License
+
+See license in repo.
