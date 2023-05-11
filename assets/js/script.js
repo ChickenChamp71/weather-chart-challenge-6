@@ -32,7 +32,7 @@ function init () {
             historyBtn[i].setAttribute('style', 'display:block');
 
             historyBtn[i].addEventListener('click', function() {
-                call('http://api.openweathermap.org/geo/1.0/direct?q=' + storedSearch[i] + '&limit=5&appid=' + APIKey)
+                call('https://api.openweathermap.org/geo/1.0/direct?q=' + storedSearch[i] + '&limit=5&appid=' + APIKey)
                 
                 weather.setAttribute('style', 'display:block');
             })
@@ -85,7 +85,7 @@ searchBtn.addEventListener('click', function searchWeather(event) {
                 historyBtn[i].setAttribute('style', 'display:block');
 
                 historyBtn[i].addEventListener('click', function() {
-                    call('http://api.openweathermap.org/geo/1.0/direct?q=' + storedSearch[i] + '&limit=5&appid=' + APIKey)
+                    call('https://api.openweathermap.org/geo/1.0/direct?q=' + storedSearch[i] + '&limit=5&appid=' + APIKey)
                     
                     weather.setAttribute('style', 'display:block');
                 })
@@ -106,7 +106,7 @@ searchBtn.addEventListener('click', function searchWeather(event) {
             historyBtn[0].setAttribute('style', 'display:block');
 
             historyBtn[0].addEventListener('click', function() {
-                call('http://api.openweathermap.org/geo/1.0/direct?q=' + storedSearch[0] + '&limit=5&appid=' + APIKey)
+                call('https://api.openweathermap.org/geo/1.0/direct?q=' + storedSearch[0] + '&limit=5&appid=' + APIKey)
                 
                 weather.setAttribute('style', 'display:block');
             })
@@ -118,7 +118,7 @@ searchBtn.addEventListener('click', function searchWeather(event) {
     
     console.log(city.value);
     
-    call('http://api.openweathermap.org/geo/1.0/direct?q=' + city.value + '&limit=5&appid=' + APIKey)
+    call('https://api.openweathermap.org/geo/1.0/direct?q=' + city.value + '&limit=5&appid=' + APIKey)
 
     if (storedSearch !== null && storedSearch.includes(city.value)) {
         return;
@@ -139,7 +139,7 @@ function call (geoCoding) {
             var lat = data[0].lat;
             var lon = data[0].lon;
             
-            var recAPI = 'http://api.openweathermap.org/data/2.5/forecast?lat=' + lat + '&lon=' + lon + '&appid=' + APIKey + '&units=imperial';
+            var recAPI = 'https://api.openweathermap.org/data/2.5/forecast?lat=' + lat + '&lon=' + lon + '&appid=' + APIKey + '&units=imperial';
 
             function setDate () {
                 var date = dayjs().format('M/D/YYYY');
